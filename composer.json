@@ -1,0 +1,22 @@
+{
+	"name": "doubleedesign/plugin-compatibility-override",
+	"version": "0.0.1",
+	"description": "Allows developers to specify, on a per-site basis, that specific plugins are compatible with ClassicPress despite a WP version requirement mismatch",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Leesa Ward",
+			"email": "leesa@doubleedesign.com.au"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Doubleedesign\\ClassicPress\\PluginCompatibility\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require-dev": {
+		"laravel/pint": "^1.24"
+	}
+}
