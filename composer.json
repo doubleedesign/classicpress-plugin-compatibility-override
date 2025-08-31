@@ -1,5 +1,5 @@
 {
-	"name": "doubleedesign/plugin-compatibility-override",
+	"name": "doubleedesign/classicpress-plugin-compatibility-override",
 	"version": "0.0.1",
 	"description": "Allows developers to specify, on a per-site basis, that specific plugins are compatible with ClassicPress despite a WP version requirement mismatch",
 	"type": "wordpress-plugin",
